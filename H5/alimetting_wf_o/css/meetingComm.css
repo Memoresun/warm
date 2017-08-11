@@ -1,0 +1,230 @@
+body{font:normal 18px/160% arial,"microsoft yahei"; color:#000;text-align:justify;text-justify:inter-ideograph;}
+body,p,ul,li,ol,h1,h2,h3,h4,h5,h6,dl,dt,dd,form,iframe{margin:0;padding:0;}
+ul,li,ol{list-style:none outside none;}
+img{border:0 none;vertical-align:top;width:100%;}
+input,select{vertical-align:middle;font-family: "microsoft yahei" !important;}
+pre{white-space:normal;}
+.edge{margin:0 auto; font-family: "microsoft yahei" !important; text-shadow:0 0 0 #000000 !important;}
+.clear{zoom:1;clear:both;}
+.clear:after{content:".";height:0;display:block;clear:both;visibility:hidden;font-size:0;}
+a{text-decoration:none;color:#333;}
+/*a:visited{color:#aaa;}*/
+/*a:hover,*/
+a:active{color:#999;}
+.fix{font-size:0;height:1px;}
+.fl{float:left;}
+.fr{float:right;}
+.d-b{display:block;}
+.d-box{display:-webkit-box;display:-moz-box;display:box;}
+.border1{border:solid 1px #bfbfbf;}
+.flex1{-moz-box-flex: 1;-webkit-box-flex: 1;box-flex: 1;display:block;}
+.flex2{-moz-box-flex: 2;-webkit-box-flex: 2;box-flex: 2;display:block;}
+.vcenter{-webkit-box-align: center;-moz-box-align: center;-ms-flex-align: center;-webkit-align-items: center;align-items: center;}
+.tcenter{-webkit-box-pack: center;-moz-box-pack: center;-ms-flex-pack: center;-webkit-justify-content: center;justify-content: center;}
+.v-box{-webkit-box-orient:vertical;box-orient:vertical;}
+.tc{text-align:center;}
+.in10{padding:10px;}
+.mt20{margin-top:10px;}
+.d-ib{display:inline-block}
+.vm{vertical-align:middle;}
+a,span,div,p,ul,li,ol,b{-webkit-user-select:none;-webkit-tap-highlight-color:rgba(255,255,255,0);}
+
+.normal-page-wrap{min-height:100%;overflow:auto;position:relative;}
+.global-index-page{background:url("../images/globalBg.jpg") 0 10% no-repeat #20baf9;background-size:100% auto;overflow:hidden;width:640px;position:static;}
+
+.to{display:block;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
+.abs-footer,
+.fix-footer{position:fixed;bottom:0;left:0;width:100%;}
+.abs-footer{position:absolute;}
+
+.t-c-y{color:#fffc00;}
+
+.xy_c{top:50%;left:50%;-webkit-transform:translate(-50%,-50%);transform:translate(-50%,-50%);position:absolute;}
+
+.swiper-slide{position:relative;width:100%;height:100%;text-align:center;}
+
+.power-scroll-container .swiper-slide{float:left;}
+.power-scroll-container .swiper-slide>.slide-wrapper{overflow:auto;}
+
+.power-scroll-container .ui-up-arrow{width:100%;height:115px;left:0;bottom:-1px;display:block; z-index : 99;text-align:center;background:#e3e3e3;opacity:1;}
+.power-scroll-container .ui-up-arrow img{width:auto;margin:35px 0;}
+.login_inner{position: absolute; cursor1: wait; width: 100%;color: #696969; font-family:'Microsoft YaHei';text-align:center;}
+
+.js-sub-power-scroll-container,
+.js-sub-power-scroll-container .slide-wrapper,
+.js-sub-power-scroll-container .js-sub-power-scroll{width:100%;height:100%;}
+
+.sub-power-scroll-container {overflow: visible; -webkit-transform: scale(0); transform: scale(0); -webkit-animation: rotateIn 0.3s ease-in 0.1s 1; animation: rotateIn 0.3s ease-in 0.1s 1; -webkit-animation-fill-mode: forwards; animation-fill-mode: forwards; }
+
+.sub-swiper-container { width: 504px; height: 734px; overflow: visible; }
+.sub-swiper-container .sub-swiper-wrapper { height: 100%; }
+.sub-swiper-container .sub-swiper-slide { float: left; background: none; z-index: 1; overflow:auto;}
+
+/* module */
+.icons{display:inline-block;background:url("") 50% 50% no-repeat;background-size:25px auto;width:25px;height:25px;vertical-align:middle;}
+.bgs{background:url("") 0 50% no-repeat;background-size:25px;padding:0 0 0 30px;}
+
+/* 目录 */
+.index-page{background:url("../images/indexBg.jpg") 50% 50% no-repeat;background-size:100% auto;}
+.index-menus{height:600px;position:absolute;width:100%;top:50%;margin-top:-300px;}
+.index-menus .item{position:absolute;}
+.index-menus .about{right:180px;top:-10px;}
+.index-menus .global{left: 228px;top: 115px;}
+.index-menus .happy{right:120px;top:285px;}
+.index-menus .heart{left:100px;top:455px;}
+
+/* 全球阿里  */
+.global-menus{overflow:auto;position:absolute;top:0;left:0;}
+.global-menus-inner{width:640px;overflow:hidden;}
+.global-menus a{display:block;-webkit-transform:rotate(-8deg);position:relative;z-index:2;margin:0 -5% 0 -15%;background-size:100% auto;background:no-repeat;}
+.global-menus .txt{position:absolute;top:25%;left:0;-webkit-transform:rotate(0deg);width:100%;text-align:right;}
+.global-menus .txt{
+    -webkit-animation-name: qqflash;
+    animation-name: qqflash;
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    display:block;
+}
+.global-menus .usa .txt{ -webkit-animation-delay:0s; animation-delay:0s; }
+.global-menus .hk .txt{ -webkit-animation-delay:-.5s; animation-delay:-.5s; }
+.global-menus .sg .txt{ -webkit-animation-delay:-1s; animation-delay:-1s; }
+.global-menus .global .txt{ -webkit-animation-delay:-1.5s; animation-delay:-1.5s; }
+.global-menus .txt img{width:auto;max-width:80%;}
+.global-menus .global .txt{-webkit-transform:rotate(-7deg);}
+.global-menus .usa .txt{-webkit-transform:rotate(-8deg);}
+.global-menus .global .txt{top:50%;}
+
+.global-menus .usa{position:relative;top:0;right:0;z-index:1;-webkit-transform:rotate(0deg);margin:0 -5% -8.5% -15%;}
+.global-menus .global{position:relative;z-index:1;-webkit-transform:rotate(0deg);margin:-9.2% -5% 0 -15%;height:150px;overflow:hidden;}
+.global-menus .global.active{-webkit-transform:rotate(-8deg);margin-top:0;}
+.global-menus .global.active .txt{-webkit-transform:rotate(0deg);top:15%;}
+.global-logo{width:50%;text-align:center;margin:5% auto 0;}
+.global-logo img{max-width:100%;width:auto;}
+.global-btn-back{position:fixed;right:0;top:0;width:50px;margin:25px;z-index:9;}
+
+.menus-on-top{top:0;padding:0;}
+
+.imgs-list{overflow:hidden;height:0;}
+
+/* 了解蚂蚁 */
+.about-index-page{background:url("../images/aboutBg.jpg") repeat;background-size:100% auto;}
+.about-header{margin:95px 40px 620px;position:relative;z-index:2;border:solid 2px #fff;padding:25px 40px 15px;
+    -webkit-border-radius : 15px; -moz-border-radius : 15px; border-radius : 15px;
+}
+.about-header .logo{position:absolute;top:-68px;left:50%;margin-left:-142px;background:url("../images/aboutBg.jpg");padding:0 15px;}
+.about-header .desc{color:#fff;font-size:24px;line-height:180%;max-height:999999px;}
+
+.ali-logos{position:absolute;bottom:0;left:0;width:100%;z-index:1;}
+.ali-logos .logos{position:absolute;display:block;}
+.ali-logos .dot{display:block;position:absolute; }
+
+.ali-logos .logo-mayi{bottom:380px;left:30px;}
+.ali-logos .logo-mayi .dot{top:-30px;right:-18px;}
+
+.ali-logos .logo-alipay{bottom:560px;left:130px;}
+.ali-logos .logo-alipay .dot{top:-15px;right:-48px;}
+
+.ali-logos .logo-zhima{bottom:550px;right:40px;}
+.ali-logos .logo-zhima .dot{bottom:-40px;left:0;}
+
+.ali-logos .logo-fortune{bottom:380px;right:150px;}
+.ali-logos .logo-fortune .dot{top:-25px;left:-25px;}
+
+.ali-logos .logo-bank{bottom:310px;right:220px;}
+.ali-logos .logo-bank .dot{top:-20px;left:-38px;}
+
+.ali-logos .logo-yuebao{bottom:220px;left:170px;}
+.ali-logos .logo-yuebao .dot{bottom:-20px;right:-38px;}
+
+.ali-logos .logo-zhaocaibao{bottom:105px;left:50px;}
+.ali-logos .logo-zhaocaibao .dot{top:-33px;right:-0;}
+
+.ali-logos .logo-daq{bottom:170px;right:70px;}
+.ali-logos .logo-daq .dot{bottom:-38px;left:-15px;}
+
+.ali-logos .logo-check{bottom:40px;left:300px;}
+.ali-logos .logo-check .dot{top:-5px;left:-36px;}
+
+.about-detail-page{background:url("../images/aboutDetailBg.jpg") no-repeat;background-size:100% auto;display:none;}
+.about-content{margin:25px 50px 0;position:relative;}
+.about-detail-logo{text-align:center;padding:50px 0 110px;}
+.about-detail-logo img{width:auto;}
+.about-content .desc{border:solid 2px #00e4ff;border-radius:15px;padding:75px 50px 100px;font-size:28px;color:#fff;line-height:200%;background:rgba(1,148,208,.2);max-height:999999px;}
+.btn-heart-back,
+.about-btn-back{position:relative;left:50%;top:-38px;margin:0 0 80px -99px;background:url("../images/aboutBg.jpg");border-radius:100%;display:inline-block;z-index:3;}
+.about-footer{position:absolute;bottom:0;left:0;z-index:2;}
+
+/* 爱心蚂蚁 */
+.slide-heart{background:url("../images/heartBg.png");background-size:100% auto;height:100%;}
+.heart-wrap{background:url("../images/heartBot.png") 0 100% no-repeat;background-size:100% auto;position:relative;z-index:2;}
+.heart-module .title{position:relative;float:left;margin:25px 0 -25px 55px;background:url("../images/aboutBg.jpg");padding:0 15px;overflow:hidden;clear:both;z-index:2;}
+.heart-module-inner{overflow:auto;}
+.h-txt-module{border:solid 2px #fff;border-radius:15px;margin:0 25px 50px;padding:50px 20px 25px;position:relative;overflow:hidden;clear:both;}
+.h-txt-module .desc{color:#fff;font-size:24px;text-align:left;line-height:180%;width:100%;display:block;max-height:99999999px;}
+.h-txt-module img{width:auto; vertical-align:middle;max-width:100%;}
+.h-txt-module dt,
+.h-txt-module dd{background:url("");}
+.h-txt-module .t{font-size:32px;font-weight:bold;}
+.h-txt-module .i{text-align:center;padding:15px 0;}
+.h-txt-module .t-c-y{color:#fffc00;}
+
+.heart-wrap .arrows .arrow{margin-top:-74px;}
+
+.heart-love-wrap .title{margin-bottom:-50px;margin-top:15px;}
+
+.heart-finance-wrap .c{padding:10px 0;}
+.heart-finance-wrap .desc .t img{margin:0 15px;}
+.heart-finance-wrap .desc .c img{margin:-9999px;padding:9999px;}
+.heart-finance-wrap .desc{padding-bottom:25px;}
+.btn-heart-back{display: block;margin-top: -52px;margin-bottom:0;width: 197px;}
+
+html .ui-loader{display:none!important;}
+
+.banner,.banner ul,.banner li{height:100%;}
+.banner .arrow{position:fixed;background:url("../images/sliderArrowLeft.png") 0 50% no-repeat;width:50%;height:148px;text-indent:99999em;overflow:hidden;top:50%;margin-top:148px;z-index:9;}
+.banner .prev{left:5px;}
+.banner .next{background-image:url("../images/sliderArrowRight.png");right:5px;background-position:100% 50%;}
+
+.heart-wrap .arrows .arrow{width:30%;}
+.vcode{position:relative;z-index:2;display:block;background:rgba(0,0,0,0)}
+
+/* 快乐蚂蚁 */
+.happy-index-page{background:#00b0ef;}
+.happy-index-logo{margin:25px 35px 0;}
+.happies-guide{margin:0 38px 25px;}
+.happy-index-page img{width:auto;max-width:100%;}
+.happy-index-page .item{margin:7px 0;position:relative;overflow:hidden;display:block;}
+.happy-index-page .arrow{position:absolute;display:block;background:url("../images/arrowRightYellow.png") 100% 50% no-repeat;width:20px;height:34px;right:25px;top:50%;margin-top:-17px;background-size:100% auto;}
+.happy-index-page .small .arrow{right:20px;}
+.happy-index-page .history{margin-right:25px;}
+
+.happy-detail-page{background:url("../images/happyDetailBg.jpg") 50% 100% no-repeat #0ae;height:100%;text-align:center;min-height:inherit;}
+.happy-detail-page img{width:auto;max-width:100%;}
+.happy-detail-page .banner,.happy-detail-page .banner ul,.happy-detail-page .banner li{height:100%!important;}
+
+.happy-banner .title{display:block;text-align:center;padding:35px 0 40px;}
+.happy-banner .pic{padding:15px;border:solid 4px #42c5f3;position:relative;margin:30px 25px 25px;}
+.happy-banner .avatar{position:absolute;right:-40px;top:-137px;display:block;}
+.happy-banner .desc{margin:25px 25px 20px;border-top:solid 2px #fff;padding:15px 0 0;max-height:100%;}
+.happy-banner .desc-inner{overflow:hidden;width:100%;color:#fff;}
+.happy-banner .desc-inner p{text-align:center;overflow:hidden;font-size:21.7px;line-height:160%;}
+
+
+.btn-happy-back{display:block;position:absolute;bottom:30px;left:50%;margin-left:-98px;}
+.happy-content{overflow-y:auto;overflow-x:hidden;}
+.happy-inner{position:relative;padding-bottom:106px;}
+
+/* 蚂蚁活动 */
+.events-page-wrap{background:url("../images/eventsBg.jpg") 50% 50% ;background-size:cover;}
+.event-links{font-size:30px;line-height:180%;margin:25px 25px 0;}
+.event-links a{color:#fff;display:block;text-align:center;background:#0699d3;
+    -webkit-box-shadow : 0 0 10px 3px rgba(0, 228, 255, .5);
+    -moz-box-shadow : 0 0 10px 3px rgba(0, 228, 255, .5);
+    box-shadow : 0 0 10px 3px rgba(0, 228, 255, .5);
+    border-radius:15px;margin:5% 0;padding:10px 15px;
+}
+.event-links .txt{display:inline-block;background:url("../images/arrowRight.png") 100% 50% no-repeat;padding-right:20px;}
